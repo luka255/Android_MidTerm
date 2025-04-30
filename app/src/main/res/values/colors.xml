@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#795FFC</color>
+    <color name="purple_700">#6F39F7</color>
+    <color name="available_green">#24BA77</color>
+    <color name="used_purple">#8A76E6</color>
+    <color name="tab_unselected">#A0A0A0</color>
+    <color name="tab_selected">#6F39F7</color>
+    <color name="card_border">#DDDDDD</color>
+    <color name="text_primary">#555555</color>
+    <color name="text_secondary">#888888</color>
+    <color name="might_white">#F9F9F9</color>
+</resources>

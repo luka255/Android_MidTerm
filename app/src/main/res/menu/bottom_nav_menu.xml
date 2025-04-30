@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/otherFragment"
+        android:icon="@drawable/note"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/leaveSummaryFragment"
+        android:icon="@drawable/layer"
+        tools:ignore="MenuTitle" />
+
+</menu>
