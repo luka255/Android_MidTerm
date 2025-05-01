@@ -42,7 +42,7 @@ class LeaveSummary : Fragment() {
         }.attach()
 
         binding.btnSubmitLeave.setOnClickListener {
-            val dialog = ItemListDialogFragment.newInstance(30) // Set the number of items here
+            val dialog = ItemListDialogFragment.newInstance(30)
 
             dialog.show(childFragmentManager, "item_list_dialog")
         }
