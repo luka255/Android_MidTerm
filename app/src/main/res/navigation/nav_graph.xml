@@ -10,4 +10,9 @@
         android:name="com.example.android_midterm.LeaveSummary"
         android:label="fragment_leave_summary"
         tools:layout="@layout/fragment_leave_summary" />
+    <fragment
+        android:id="@+id/otherFragment"
+        android:name="com.example.android_midterm.OtherFragment"
+        android:label="fragment_other"
+        tools:layout="@layout/fragment_other"/>
 </navigation>

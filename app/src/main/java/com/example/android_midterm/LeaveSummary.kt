@@ -31,6 +31,7 @@ class LeaveSummary : Fragment() {
         val adapter = ViewPagerAdapter(requireActivity())
         viewPager.adapter = adapter
 
+
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
             tab.text = when (position) {
                 0 -> "Review"
@@ -39,5 +40,11 @@ class LeaveSummary : Fragment() {
                 else -> ""
             }
         }.attach()
+
+        binding.btnSubmitLeave.setOnClickListener {
+            val dialog = ItemListDialogFragment.newInstance(30) // Set the number of items here
+
+            dialog.show(childFragmentManager, "item_list_dialog")
+        }
     }
 }
